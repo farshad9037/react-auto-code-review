@@ -1,0 +1,28 @@
+{
+  "name": "react-auto-code-review",
+  "version": "1.0.0",
+  "description": "Automatic code review of react flow applications",
+  "main": "auto-code-review.js",
+  "scripts": {
+    "start": "node auto-code-review.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farshad9037/react-auto-code-review.git"
+  },
+  "author": "Farshad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farshad9037/react-auto-code-review/issues"
+  },
+  "homepage": "https://github.com/farshad9037/react-auto-code-review#readme",
+  "dependencies": {
+    "@babel/generator": "^7.2.2",
+    "@babel/parser": "^7.2.2",
+    "babylon-walk": "^1.0.2",
+    "file-list": "file:file-list",
+    "find-inline-methods": "file:find-inline-methods",
+    "underscore": "^1.9.1",
+    "write-to-file": "file:write-to-file"
+  }
+}
